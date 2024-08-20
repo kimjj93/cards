@@ -26,7 +26,6 @@ ard_total_n.data.frame <- function(data, ...) {
   # process inputs -------------------------------------------------------------
   set_cli_abort_call()
   check_dots_empty()
-  check_data_frame(data)
 
   # calculate total N ----------------------------------------------------------
   data |>
